@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
 
     for ((index, item) in bankArraylist_1.withIndex()) {
 
-        println("${index + 1}. $item")
+        println("${index + 1}) $item")
     }
 
 
@@ -41,7 +41,7 @@ fun main(args: Array<String>) {
 
     for ((index, item) in bankArraylist_2.withIndex()) {
 
-        println("${index + 1}. $item")
+        println("${index + 1}) $item")
     }
 
 
@@ -51,7 +51,7 @@ fun main(args: Array<String>) {
 
     for ((index, item) in bankArraylist_3.withIndex()) {
 
-        println("${index + 1}. $item")
+        println("${index + 1}) $item")
     }
 
 
