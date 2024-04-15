@@ -18,6 +18,6 @@ data class Bank (var clientName: String = "", var accountNumber:Int =0, var bala
     }
 
     override fun toString(): String {
-        return "Client name='$clientName', Account number=$accountNumber, Balance=$balance"
+        return "Client name: $clientName , Account number: $accountNumber, Balance: $balance"
     }
 }
