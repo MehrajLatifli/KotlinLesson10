@@ -36,7 +36,11 @@ fun main(args: Array<String>) {
 
     println("--------- \nsortByBankArraylist: \n")
 
-    bank.sortByAccountNumber(bankArraylist_1)
+
+    for ((index, item) in bank.sortByAccountNumber(bankArraylist_1).withIndex()) {
+
+        println("${index + 1}) $item")
+    }
 
     println("--------- \nfilterByBalanceGreaterThan: \n")
 
